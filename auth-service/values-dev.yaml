@@ -2,7 +2,7 @@
 
 image:
   repository: lghthien/library-auth-service
-  tag: "dev-initial"
+  tag: "dev-5fc177287a0db3b192ce8fb914df3a18a5a52124"
 
 service:
   type: ClusterIP
