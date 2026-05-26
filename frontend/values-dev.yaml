@@ -13,6 +13,6 @@ needsDatabase: false
 
 env:
   NODE_ENV: "development"
-  NEXT_PUBLIC_API_URL: "http://gateway-svc:80"
+  NEXT_PUBLIC_API_URL: "http://192.168.127.7:4000"
   HOSTNAME: "0.0.0.0"    # <-- Ép Next.js mở cửa cho mọi kết nối
   PORT: "3000"
