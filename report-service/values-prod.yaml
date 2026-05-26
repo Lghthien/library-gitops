@@ -1,7 +1,7 @@
 ﻿replicaCount: 2
 
 image:
-  repository: lghthien/library-report-service
+  repository: legiahoangthien/library-report-service
   tag: "prod-initial"
 
 service:

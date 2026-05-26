@@ -1,7 +1,7 @@
 ﻿replicaCount: 2
 
 image:
-  repository: lghthien/library-parameter-service
+  repository: legiahoangthien/library-parameter-service
   tag: "prod-initial"
 
 service:

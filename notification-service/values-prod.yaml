@@ -1,7 +1,7 @@
 ﻿replicaCount: 2
 
 image:
-  repository: lghthien/library-notification-service
+  repository: legiahoangthien/library-notification-service
   tag: "prod-initial"
 
 service:

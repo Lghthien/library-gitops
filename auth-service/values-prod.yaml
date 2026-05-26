@@ -1,7 +1,7 @@
 ﻿replicaCount: 2
 
 image:
-  repository: lghthien/library-auth-service
+  repository: legiahoangthien/library-auth-service
   tag: "prod-initial"
 
 service:

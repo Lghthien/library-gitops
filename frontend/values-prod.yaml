@@ -1,7 +1,7 @@
 ﻿replicaCount: 2
 
 image:
-  repository: lghthien/library-frontend
+  repository: legiahoangthien/library-frontend
   tag: "prod-initial"
 
 service:

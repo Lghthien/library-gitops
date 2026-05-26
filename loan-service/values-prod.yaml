@@ -1,7 +1,7 @@
 ﻿replicaCount: 2
 
 image:
-  repository: lghthien/library-loan-service
+  repository: legiahoangthien/library-loan-service
   tag: "prod-initial"
 
 service:

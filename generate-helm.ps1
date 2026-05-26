@@ -67,7 +67,7 @@ appVersion: "1.0.0"
 replicaCount: 1
 
 image:
-  repository: lghthien/library-$svcName
+  repository: legiahoangthien/library-$svcName
   tag: "dev-initial"
 
 service:
@@ -86,7 +86,7 @@ $envDev
 replicaCount: 2
 
 image:
-  repository: lghthien/library-$svcName
+  repository: legiahoangthien/library-$svcName
   tag: "prod-initial"
 
 service:

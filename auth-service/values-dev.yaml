@@ -1,8 +1,8 @@
 ﻿replicaCount: 1
 
 image:
-  repository: lghthien/library-auth-service
-  tag: "dev-97df315ea31b5950ee394e10b7d3bc694d2294ef"
+  repository: legiahoangthien/library-auth-service
+  tag: "dev-initial"
 
 service:
   type: ClusterIP
