@@ -2,7 +2,7 @@
 
 image:
   repository: legiahoangthien/library-gateway
-  tag: "dev-b04ab8a7eda2a476518a78e54190d29d67ace976"
+  tag: "dev-4355e1ee805c7a024eb580b8e74ed54608bee300"
 
 service:
   type: ClusterIP
