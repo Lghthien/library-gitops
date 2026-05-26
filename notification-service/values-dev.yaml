@@ -2,7 +2,7 @@
 
 image:
   repository: lghthien/library-notification-service
-  tag: "dev-initial"
+  tag: "dev-97df315ea31b5950ee394e10b7d3bc694d2294ef"
 
 service:
   type: ClusterIP
