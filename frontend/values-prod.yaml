@@ -2,7 +2,7 @@
 
 image:
   repository: legiahoangthien/library-frontend
-  tag: "prod-b8624f8e03a8b06f66dd20e6f3c24107a0b1e919"
+  tag: "prod-d0d1944083c2529becbd5b7a64ad3c932a37d801"
 
 service:
   type: ClusterIP
