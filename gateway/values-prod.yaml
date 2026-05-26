@@ -1,0 +1,15 @@
+﻿replicaCount: 2
+
+image:
+  repository: lghthien/library-gateway
+  tag: "prod-initial"
+
+service:
+  type: ClusterIP
+  port: 4000
+
+needsDatabase: false
+
+env:
+  NODE_ENV: "production"
+  PORT: "4000"

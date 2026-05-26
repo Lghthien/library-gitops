@@ -1,0 +1,15 @@
+﻿replicaCount: 2
+
+image:
+  repository: lghthien/library-frontend
+  tag: "prod-initial"
+
+service:
+  type: ClusterIP
+  port: 3000
+
+needsDatabase: false
+
+env:
+  NODE_ENV: "production"
+  NEXT_PUBLIC_API_URL: "https://api.thuvien.vn"

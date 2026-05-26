@@ -1,0 +1,6 @@
+﻿apiVersion: v2
+name: parameter-service
+description: Helm chart for parameter-service - Library Microservices
+type: application
+version: 1.0.0
+appVersion: "1.0.0"

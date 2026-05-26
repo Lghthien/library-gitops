@@ -1,0 +1,16 @@
+﻿replicaCount: 1
+
+image:
+  repository: lghthien/library-reader-service
+  tag: "dev-initial"
+
+service:
+  type: ClusterIP
+  port: 4005
+
+# Flag to determine if this service needs MongoDB credentials from Secret
+needsDatabase: true
+
+env:
+  NODE_ENV: "development"
+  PORT: "4005"

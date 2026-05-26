@@ -1,0 +1,24 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: library-prod-root
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/lghthien/library-gitops.git
+    targetRevision: HEAD
+    path: "*" # Quét tất cả các thư mục con (auth, gateway, ...)
+    helm:
+      # Cực kỳ quan trọng: Ép tất cả dùng file values của môi trường PROD
+      valueFiles:
+        - values-prod.yaml
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: library-prod
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true

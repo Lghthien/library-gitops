@@ -1,0 +1,15 @@
+﻿replicaCount: 2
+
+image:
+  repository: lghthien/library-report-service
+  tag: "prod-initial"
+
+service:
+  type: ClusterIP
+  port: 4003
+
+needsDatabase: true
+
+env:
+  NODE_ENV: "production"
+  PORT: "4003"

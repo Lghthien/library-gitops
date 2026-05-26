@@ -1,0 +1,16 @@
+﻿replicaCount: 1
+
+image:
+  repository: lghthien/library-frontend
+  tag: "dev-initial"
+
+service:
+  type: ClusterIP
+  port: 3000
+
+# Flag to determine if this service needs MongoDB credentials from Secret
+needsDatabase: false
+
+env:
+  NODE_ENV: "development"
+  NEXT_PUBLIC_API_URL: "http://gateway-svc:80"

@@ -1,0 +1,15 @@
+﻿replicaCount: 2
+
+image:
+  repository: lghthien/library-loan-service
+  tag: "prod-initial"
+
+service:
+  type: ClusterIP
+  port: 4006
+
+needsDatabase: true
+
+env:
+  NODE_ENV: "production"
+  PORT: "4006"
