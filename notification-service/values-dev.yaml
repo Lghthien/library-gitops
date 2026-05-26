@@ -2,7 +2,7 @@
 
 image:
   repository: legiahoangthien/library-notification-service
-  tag: "dev-initial"
+  tag: "dev-b04ab8a7eda2a476518a78e54190d29d67ace976"
 
 service:
   type: ClusterIP
