@@ -2,7 +2,7 @@
 
 image:
   repository: legiahoangthien/library-auth-service
-  tag: "prod-d0d1944083c2529becbd5b7a64ad3c932a37d801"
+  tag: "prod-f93e0c7af38232764c81daf97a9a189ce2bd05ad"
 
 service:
   type: ClusterIP
